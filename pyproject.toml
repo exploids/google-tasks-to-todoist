@@ -1,10 +1,14 @@
 [project]
 name = "google-tasks-to-todoist"
-version = "0.1.0"
+version = "0.1.1"
 description = "A utility to convert Google Tasks JSON exports to Todoist CSV format."
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/exploids/google-tasks-to-todoist"
+Repository = "https://github.com/exploids/google-tasks-to-todoist"
 
 [project.scripts]
 google-tasks-to-todoist = "google_tasks_to_todoist.cli:main"
